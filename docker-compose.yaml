@@ -1,0 +1,7 @@
+services:
+  expo-app:
+    build: .
+    container_name: react-native-calculator
+    ports:
+      - "8081:80"
+    restart: unless-stopped
